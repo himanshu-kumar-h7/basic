@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useCallback, useState } from 'react';
 
 function Counter() {
   const [count, setCount] = useState(0);
@@ -6,8 +6,8 @@ function Counter() {
 
 
   console.log("Hello")
-  const increment = () => setCount(prev => prev + 1);
-  const decrement = () => setCount(prev => prev - 1);
+  const increment = useCallback(() => setCount(prev => prev + 1),[]);
+  const decrement = useCallback(() => setCount(prev => prev - 1),[]);
   const reset = () => setCount(0);
 
   return (

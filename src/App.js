@@ -1,10 +1,16 @@
-import Counter from "./Component/count";
+// import Counter from "./Component/count";
+import ControlledComponent from './Component/ControllledComponent'
+import UncontrolledComponent from './Component/UnControlledComponent';
+import UseMemoCode from './Component/UseMemoCode'
 
 function App() {
 
 return (
     <div className="App">
-      <Counter />
+      {/* <Counter /> */}
+      {/* <ControlledComponent /> */}
+      {/* <UncontrolledComponent /> */}
+      <UseMemoCode />
     </div>
   );
 }
