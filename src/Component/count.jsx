@@ -16,6 +16,7 @@ function Counter() {
       <button onClick={decrement}>-</button>
       <button onClick={reset} style={{ margin: '0 1rem' }}>Reset</button>
       <button onClick={increment}>+</button>
+      
     </div>
   );
 }
