@@ -1,5 +1,6 @@
 // import Counter from "./Component/count";
 import ControlledComponent from './Component/ControllledComponent'
+import TodoApp from './Component/Todo';
 import UncontrolledComponent from './Component/UnControlledComponent';
 import UseMemoCode from './Component/UseMemoCode'
 
@@ -10,7 +11,8 @@ return (
       {/* <Counter /> */}
       {/* <ControlledComponent /> */}
       {/* <UncontrolledComponent /> */}
-      <UseMemoCode />
+      {/* <UseMemoCode /> */}
+      <TodoApp />
     </div>
   );
 }
