@@ -11,8 +11,7 @@ const UncontrolledComponent = () => {
         alert(`Submitted name: ${name}`);
 
     }
-
-    // const handleClick = () => {
+ // const handleClick = () => {
     //     myRef.current.focus()
     // }
     useEffect(() => {
