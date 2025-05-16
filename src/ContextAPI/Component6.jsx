@@ -1,12 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
+import Component7 from "./Component7";
 
-const Component1 = () => {
-    const[name, setName] = useState("Himanshu")
-    return(
-        <>
-        <h1>{name}</h1>
-        </>
-    )
-}
+const Component6 = () => {
+  return (
+    <div>
+      <Component7 />
+    </div>
+  );
+};
 
-export default Component1
+export default Component6;
