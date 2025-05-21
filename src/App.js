@@ -7,6 +7,7 @@ import UseMemoCode from './Component/UseMemoCode'
 import Todo from './Component/Todo';
 import Component1 from './PropDrilling/Component1';
 import Component5 from './ContextAPI/Component5';
+import UsingJson from './FetchData/UsingJson';
 
 function App() {
 
@@ -20,7 +21,8 @@ return (
       {/* <Fetch /> */}
       {/* <Todo /> */}
       {/* <Component1/> */}
-      <Component5/>
+      {/* <Component5/> */}
+      <UsingJson/>
     </div>
   );
 }
